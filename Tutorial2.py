@@ -42,7 +42,6 @@ biases = {
     'out': tf.Variable(tf.random_normal([n_classes]))
 }
 
-
 def RNN(x, weights, biases):
     # Prepare data shape to match `rnn` function requirements
     # Current data input shape: (batch_size, n_steps, n_input)
